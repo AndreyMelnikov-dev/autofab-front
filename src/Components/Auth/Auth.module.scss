@@ -1,0 +1,33 @@
+.box {
+    width: 720px;
+    box-sizing: border-box;
+    padding: 50px 70px;
+    background: #F8F8F8;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.line {
+    margin-bottom: 30px;
+}
+
+.line_50 {
+    display: flex;
+    justify-content: space-between;
+    input {
+        width: 280px;
+    }
+}
+
+.btn {
+    margin: 0 auto;
+    display: block;
+}
