@@ -5,9 +5,11 @@ import SideNavigation from './SideNavigation/SideNavigation'
 
 const Sidebar = () => {
     return <div className={s.box}>
-        <SideProfile />
-        <SideNotification />
-        <SideNavigation />
+        <div className={s.sticky}>
+            <SideProfile />
+            <SideNotification />
+            <SideNavigation />
+        </div>
     </div>
 }
 

@@ -139,6 +139,8 @@ input {
     -webkit-appearance: none;
     outline: none;
     border: 0;
+    background: transparent;
+    padding: 0;
 }
 
 // fonts
@@ -168,6 +170,10 @@ input {
 
 body * {
     font-family: 'Montserrat';
+}
+
+body {
+    color: #3B3B42;
 }
 
 // flex class 

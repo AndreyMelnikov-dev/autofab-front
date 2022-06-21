@@ -1,0 +1,24 @@
+@keyframes preloader {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.main {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    svg {
+        width: 100px;
+        height: 100px;
+        display: block;
+        animation: preloader;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        pointer-events: none;
+    }
+}
