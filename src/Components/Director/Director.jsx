@@ -1,13 +1,14 @@
 import s from './Director.module.scss'
 import Sidebar from '../Sidebar/Sidebar'
 import { Route, Routes } from 'react-router'
+import Team from './Team/Team'
 
 const Director = () => {
     return <div className='flex-w'>
         <Sidebar />
         <div className={s.content}>
             <Routes>
-                <Route path='' element='' />
+                <Route path='team' element={<Team />} />
             </Routes>
         </div>
     </div>
